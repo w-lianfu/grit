@@ -1,6 +1,7 @@
 {
   "name": "hr",
   "version": "0.1.0",
+  "author": "grit",
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.2.0",
