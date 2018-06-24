@@ -3,7 +3,7 @@
 * 基于 create-react-app
 * 支持 react-router, mobx, sass, ant-mobile, styled-components
 * 支持 immutable, rxjs, ramda, lodash, moment
-* 连接地址 [w-lianfu.github.io/grit/](https://w-lianfu.github.io/grit/)
+* 链接地址 [w-lianfu.github.io/grit/](https://w-lianfu.github.io/grit/)
 
 ## 注意
 
@@ -12,4 +12,3 @@
   在 alias 中增加 '@': paths.appSrc,
   在 roles 中增加对 sass-loader 的支持
 ```
-
