@@ -5,7 +5,6 @@ import { Button } from 'antd-mobile';
 
 import { ZButton } from '@/common/styled/button';
 import DouNav from '@/common/components/dou-nav';
-import './scss/one.scss';
 import Store from './store';
 
 const todo = new Store();

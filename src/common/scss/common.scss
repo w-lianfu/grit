@@ -1,5 +1,4 @@
-$eee: #eee;
-$c333: #333;
+@import './color.scss';
 
 html {
   width: 100%;
@@ -24,9 +23,9 @@ body {
   overflow: auto;
 }
 
-html, body, #root {
+html, body, #root, ul, ol, li {
   margin: 0;
-  border: 0;
+  padding: 0;
   border: 0;
   box-sizing: border-box;
 }
@@ -34,4 +33,11 @@ html, body, #root {
 ::selection {
   color: $eee;
   background-color: $c333;
+}
+
+.dou-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: $c111;
 }
