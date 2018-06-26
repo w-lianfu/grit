@@ -1,0 +1,20 @@
+@import '@/common/scss/color.scss';
+
+.dou-nav {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  border: 1px solid $eee;
+
+  a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $c000;
+    font-weight: 500;
+  }
+}

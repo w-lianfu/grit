@@ -4,6 +4,7 @@ import { observer } from 'mobx-react';
 import { Button } from 'antd-mobile';
 
 import { ZButton } from '@/common/styled/button';
+import DouNav from '@/common/components/dou-nav';
 import './scss/one.scss';
 import Store from './store';
 
@@ -19,6 +20,8 @@ class Home extends Component {
         <Button type="primary">Hello, Ant Mobile!</Button>
         <p>{todo.title}</p>
         <Link to="/data">数据中心</Link>
+
+        <DouNav name="home" />
       </div>
     )
   }
